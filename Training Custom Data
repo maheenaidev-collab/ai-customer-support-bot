@@ -1,0 +1,25 @@
+Edit training_data/intents.json to add new intents:
+
+JSON · 17 lines
+jsonCopyCopied!
+{
+    "intents": [
+        {
+            "tag": "order_tracking",
+            "patterns": [
+                "Where is my order?",
+                "Track my package",
+                "Order status please",
+                "When will my order arrive?"
+            ],
+            "responses": [
+                "I can help you track your order! Please provide your order ID.",
+                "Sure! What's your order number? I'll check the status right away."
+            ]
+        }
+    ]
+}
+Then retrain:
+
+bashCopyCopied!
+python train.py

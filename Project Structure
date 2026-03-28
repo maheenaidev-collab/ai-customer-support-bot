@@ -1,0 +1,14 @@
+ai-customer-support-bot/
+├── main.py                    # CLI entry point
+├── chatbot.py                 # Core chatbot engine
+├── train.py                   # Model training pipeline
+├── api.py                     # Flask REST API
+├── analytics.py               # Analytics and reporting
+├── preprocessor.py            # Text preprocessing
+├── config.py                  # Configuration settings
+├── requirements.txt           # Dependencies
+├── training_data/
+│   └── intents.json           # Training intents and responses
+├── models/                    # Saved trained models
+├── logs/                      # Conversation logs
+└── README.md

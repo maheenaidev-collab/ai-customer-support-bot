@@ -1,0 +1,7 @@
+Method	Endpoint	Description
+POST	/api/chat	Send a message, get a response
+POST	/api/session/start	Start a new chat session
+GET	/api/session/<id>	Get session history
+POST	/api/feedback	Submit feedback on a response
+GET	/api/analytics	Get bot performance analytics
+GET	/api/health	Health check endpoint

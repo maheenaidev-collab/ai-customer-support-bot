@@ -1,0 +1,13 @@
+Interactive Chat Mode
+bashCopyCopied!
+python main.py --chat
+Start API Server
+bashCopyCopied!
+python main.py --api
+# Server starts at http://localhost:5000
+Train with Custom Data
+bashCopyCopied!
+python train.py --data training_data/intents.json
+Run Analytics
+bashCopyCopied!
+python main.py --analytics

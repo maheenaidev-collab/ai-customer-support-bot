@@ -1,0 +1,6 @@
+Text Preprocessing — Tokenization, lemmatization, stopword removal
+Feature Extraction — Bag of Words + TF-IDF vectorization
+Intent Classification — ML model predicts the customer's intent
+Response Selection — Picks the best response for the detected intent
+Confidence Check — If confidence < threshold, escalates to human agent
+Context Management — Tracks conversation flow for follow-up questions

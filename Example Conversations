@@ -1,0 +1,14 @@
+Customer: Hi, I need help
+Bot: Hello! Welcome to customer support. How can I help you today?
+
+Customer: I want to return my order
+Bot: I'd be happy to help with your return! Could you please provide your order ID?
+
+Customer: It's ORD-12345
+Bot: Thank you! I've found order ORD-12345. To process the return, could you tell me the reason?
+
+Customer: The product was damaged
+Bot: I'm sorry to hear that! I've initiated a return for damaged product. You'll receive a return label via email within 24 hours. Is there anything else I can help with?
+
+Customer: No, thanks!
+Bot: You're welcome! Have a great day! 😊

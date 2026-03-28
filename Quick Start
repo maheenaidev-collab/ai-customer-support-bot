@@ -1,0 +1,8 @@
+from chatbot import CustomerSupportBot
+
+bot = CustomerSupportBot()
+bot.load_model()
+
+response = bot.get_response("I want to track my order")
+print(response)
+# Output: {'intent': 'order_tracking', 'response': 'I can help you track your order! Please provide your order ID.', 'confidence': 0.94}
